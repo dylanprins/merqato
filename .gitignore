@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.env
+.venv
+env/
+venv/
+
+# VSCode & PyCharm
+.vscode/
+.idea/
+
+# Data
+local_data/
+*.parquet
+*.csv
+*.h5
+*.pkl
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs & outputs
+wandb/
+*.log
+*.tmp
+*.bak
+*.out
+
+# OS-specific
+.DS_Store
+Thumbs.db
